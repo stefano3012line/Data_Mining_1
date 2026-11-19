@@ -1,0 +1,42 @@
+Come gestire i valori mancanti (engine displacement median 3393 valori nulli) i duplicate non SEMBRANO un problema (cfr data cleaning)
+
+TUTTI capire bene seller_level_vehicle_dataset_description
+
+workspace condiviso (github, colab)
+
+unipi latex premiun 
+
+decidere come comportarsi rispetto a rumore e outliers (vanno analizzati perlomeno exp_hist)
+gli outlier diventano un problema quando si vanno ad applicare specifici algoritmi quindi per ora vanno solo trovati
+
+capire se ci sono typo
+
+capire se si è visualizzato sufficientemente
+
+sistemare le box plot
+
+scatter plot (di tutto?) divisi per classe
+
+check list proposta nelle slides:
+[Checklist for Data Understanding
+•Determine the quality of the data. (e.g. syntactic accuracy)
+• Find outliers. (e.g. using visualization techniques)
+•Detect and examine missing values. Possible hidden by default values.
+•Discover new or confirm expected dependencies or correlations
+between attributes.
+• Check specific application dependent assumptions (e.g. the attribute
+follows a normal distribution)
+• Compare statistics with the expected behaviour.]
+
+-------------------------------------------------------------------------------------
+
+
+decidere come comportarsi riguardo aggregation(dati fortemente correlat/inutili)
+
+sampling come possibile soluzione al problema di engine displacement median (tenere di conto di outlier) 
+
+in generale studiare dimensionality reduction
+
+valutare necessità di fare feature creation (improbabile?)
+
+capire bene se fare Data Transformation

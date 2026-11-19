@@ -1,0 +1,165 @@
+Colonna: sp_id
+Valori unici: 13843
+Valori nulli: 0
+Valori duplicati: 0
+
+Colonna: n_listings
+Valori unici: 666
+Valori nulli: 0
+Valori duplicati: 13177
+
+Colonna: price_median
+Valori unici: 7876
+Valori nulli: 0
+Valori duplicati: 5967
+
+Colonna: savings_amount_median
+Valori unici: 2796
+Valori nulli: 0
+Valori duplicati: 11047
+
+Colonna: daysonmarket_median
+Valori unici: 565
+Valori nulli: 0
+Valori duplicati: 13278
+
+Colonna: mileage_median
+Valori unici: 9704
+Valori nulli: 1
+Valori duplicati: 4138
+
+Colonna: year_median
+Valori unici: 72
+Valori nulli: 0
+Valori duplicati: 13771
+
+Colonna: vehicle_age_median
+Valori unici: 71
+Valori nulli: 1
+Valori duplicati: 13771
+
+Colonna: owner_count_median
+Valori unici: 10
+Valori nulli: 39
+Valori duplicati: 13832
+
+Colonna: horsepower_median
+Valori unici: 508
+Valori nulli: 6
+Valori duplicati: 13334
+
+Colonna: engine_displacement_median
+Valori unici: 101
+Valori nulli: 3393
+Valori duplicati: 13741
+
+Colonna: city_fuel_economy_median
+Valori unici: 65
+Valori nulli: 16
+Valori duplicati: 13777
+
+Colonna: highway_fuel_economy_median
+Valori unici: 59
+Valori nulli: 16
+Valori duplicati: 13783
+
+Colonna: back_legroom_median
+Valori unici: 252
+Valori nulli: 19
+Valori duplicati: 13590
+
+Colonna: front_legroom_median
+Valori unici: 105
+Valori nulli: 7
+Valori duplicati: 13737
+
+Colonna: fuel_tank_volume_median
+Valori unici: 285
+Valori nulli: 7
+Valori duplicati: 13557
+
+Colonna: height_median
+Valori unici: 637
+Valori nulli: 6
+Valori duplicati: 13205
+
+Colonna: length_median
+Valori unici: 902
+Valori nulli: 6
+Valori duplicati: 12940
+
+Colonna: width_median
+Valori unici: 519
+Valori nulli: 6
+Valori duplicati: 13323
+
+Colonna: pct_isCab
+Valori unici: 2652
+Valori nulli: 27
+Valori duplicati: 11190
+
+Colonna: pct_is_new
+Valori unici: 4537
+Valori nulli: 0
+Valori duplicati: 9306
+
+Colonna: pct_salvage
+Valori unici: 424
+Valori nulli: 27
+Valori duplicati: 13418
+
+Colonna: pct_theft_title
+Valori unici: 455
+Valori nulli: 27
+Valori duplicati: 13387
+
+Colonna: n_listing_days
+Valori unici: 198
+Valori nulli: 0
+Valori duplicati: 13645
+
+Colonna: listing_span_days
+Valori unici: 1347
+Valori nulli: 0
+Valori duplicati: 12496
+
+Colonna: dominant_body_type
+Valori unici: 9
+Valori nulli: 0
+Valori duplicati: 13834
+
+Colonna: dominant_fuel_type
+Valori unici: 7
+Valori nulli: 0
+Valori duplicati: 13836
+
+Colonna: dominant_transmission
+Valori unici: 4
+Valori nulli: 0
+Valori duplicati: 13839
+
+Colonna: dominant_wheel_system
+Valori unici: 5
+Valori nulli: 10518
+Valori duplicati: 13837
+
+Colonna: dominant_listing_color
+Valori unici: 11
+Valori nulli: 0
+Valori duplicati: 13832
+
+Colonna: franchise_status
+Valori unici: 2
+Valori nulli: 0
+Valori duplicati: 13841
+
+Colonna: new_used_profile
+Valori unici: 3
+Valori nulli: 0
+Valori duplicati: 13840
+
+Colonna: seller_rating_class
+Valori unici: 3
+Valori nulli: 0
+Valori duplicati: 13840
+
