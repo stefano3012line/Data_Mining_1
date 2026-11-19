@@ -10,7 +10,7 @@ import sklearn.preprocessing
 #print(df.info())# Non-Null Count + Dtype 
 #sns.countplot(data=df)
 
-
+df = pd.read_csv("seller_info_dm1_2627.csv")
 '''
 #count+mean+std+min+25%+50%+75%+max
 with open("count+mean+std+min+25+50+75%+max.txt", "w") as f: 
@@ -35,29 +35,29 @@ with open("unique+null+duplicated.txt", "w") as f:
 
 
 #histograms for each column
-#-------------------------------------------------------------------------------------------
-'''
+
 for col in df.columns:
     plt.figure(figsize=(10,6))
     df[col].hist(log=False)
     plt.title(col)
     plt.savefig("histograms/"f"{col}_histogram.png")
-'''   
+  
 
 '''
-
+scaler=sklearn.preprocessing.StandardScaler()
+df_scaled=scaler.fit_transform(df)
 
 
 #histograms for each column
 
-for col in df.columns:
+for col in df_scaled.columns:
     plt.figure(figsize=(10,6))
-    df[col].hist(log=True)
+    df_scaled[col].hist(log=True)
     plt.title(col)
     plt.show()
     #plt.savefig("histograms_logaritmic/"f"{col}_histogram_logaritmic.png")   
 '''
-#---------------------------------------------------------------------------------------------
+
 #sns.heatmap(data=df_scaled.corr(), annot=True, cmap='coolwarm')
 #sns.clustermap(data=df.corr(),annot=True)
 #sns.dogplot(data=df)  #Good Boy
@@ -76,8 +76,8 @@ for col in df.columns:
 #print(clustering)
 #sns.scatterplot(data=df, x=df.columns[0], y=df.columns[-1], hue=df.columns[0], style=df.columns[0], s=100)
 #plt.tight_layout()
-alim=12
-fv= 2.2
+'''alim=12
+fv= 2.2'''
 '''target_i=0.1
 r= (alim-4*fv)/target_i
 power= r*(target_i**2)
@@ -85,7 +85,7 @@ print(r," Ohm")
 print(power," W")'''
 
 
-r=10
+'''r=10
 
 current= (alim-5*fv)/r
 
@@ -93,4 +93,4 @@ power_r= r*(current**2)
 power_i = alim*current*3
 print(current," A")
 print(power_r," W")
-print(power_i," W")
+print(power_i," W")'''
