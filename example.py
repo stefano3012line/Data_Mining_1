@@ -35,6 +35,7 @@ with open("unique+null+duplicated.txt", "w") as f:
 
 
 #histograms for each column
+#-------------------------------------------------------------------------------------------
 '''
 for col in df.columns:
     plt.figure(figsize=(10,6))
@@ -44,20 +45,19 @@ for col in df.columns:
 '''   
 
 '''
-scaler=sklearn.preprocessing.StandardScaler()
-df_scaled=scaler.fit_transform(df)
+
 
 
 #histograms for each column
 
-for col in df_scaled.columns:
+for col in df.columns:
     plt.figure(figsize=(10,6))
-    df_scaled[col].hist(log=True)
+    df[col].hist(log=True)
     plt.title(col)
     plt.show()
     #plt.savefig("histograms_logaritmic/"f"{col}_histogram_logaritmic.png")   
 '''
-
+#---------------------------------------------------------------------------------------------
 #sns.heatmap(data=df_scaled.corr(), annot=True, cmap='coolwarm')
 #sns.clustermap(data=df.corr(),annot=True)
 #sns.dogplot(data=df)  #Good Boy
